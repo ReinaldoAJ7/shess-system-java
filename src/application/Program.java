@@ -1,11 +1,12 @@
 package application;
 
 import boardgame.Position;
+import entities.Board;
 
 public class Program {
     public static void main(String[] args) {
         System.out.println("helo world" );
-        Position position = new Position(3, 7);
-        System.out.println(position);
+        Board board = new Board(16,16);
+        System.out.println(board);
     }
 }
